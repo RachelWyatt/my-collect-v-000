@@ -7,5 +7,3 @@ def my_collect(collection)
   return_array
 end
 
-def upcase(language)
-end
