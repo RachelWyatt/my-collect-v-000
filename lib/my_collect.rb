@@ -7,5 +7,5 @@ def my_collect(collection)
   return collection
 end
 
-def upcase
+def upcase(language)
 end
