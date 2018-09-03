@@ -6,4 +6,3 @@ def my_collect(collection)
   end
   return_array
 end
-
