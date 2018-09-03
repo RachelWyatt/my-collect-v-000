@@ -3,5 +3,5 @@ def my_collect(collection)
   collection.each do |x|
     return_array << yield(x)
   end
-  return return_array
+  return_array
 end
