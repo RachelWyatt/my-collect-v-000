@@ -6,3 +6,9 @@ def my_collect(empty_array)
   end
   empty_array
 end
+
+def upcase
+end
+
+def split
+end
