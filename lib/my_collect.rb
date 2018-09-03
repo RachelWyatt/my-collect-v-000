@@ -1,8 +1,7 @@
 def my_collect(collection)
   return_array = []
   collection.each do |x|
-    yield(x)
-    return_array << x
+    return_array << yield(x)
   end
   return return_array
 end
