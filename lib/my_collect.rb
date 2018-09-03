@@ -1,17 +1,8 @@
-def my_collect(empty_array)
+def my_collect(collection)
   i = 0
-  while i < empty_array.length
+  while i < collection.length
     yield
     i += 1
   end
-  empty_array
-end
-
-def upcase(array)
-  array do |lang|
-    lang.upcase
-  end
-end
-
-def split
+  return connection
 end
