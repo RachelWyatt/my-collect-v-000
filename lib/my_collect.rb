@@ -7,7 +7,10 @@ def my_collect(empty_array)
   empty_array
 end
 
-def upcase
+def upcase(array)
+  array do |lang|
+    lang.upcase
+  end
 end
 
 def split
