@@ -4,5 +4,5 @@ def my_collect(collection)
     yield(x)
     return_array << x
   end
-  return_array
+  puts return_array
 end
